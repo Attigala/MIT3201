@@ -1,0 +1,20 @@
+This repository contains code files for Online Class Manager. The repository contains two projects.
+1. Vue JS front end
+2. Spring boot back end
+
+The following needs to be installed to run the application locally,
+• MySQL Server 8.0 or above
+• Eclipse IDE for Enterprise Development 2020 – 09 or above
+• MySQL Workbench 8.0 CE
+• Visual Studio Code
+
+Instructions to run applications locally
+1. Download code base
+2. Import backend into Eclipse (File -> Import -> Existing Gradle Project)
+3. Create a mysql database for the application (MYSQL 8)
+4. Update database credentials in the springboot application's application.properties file
+5. Right click on build.gradle and select refresh gradle projects.
+6. gradlew bootRun
+7. Open command promt and navigate to the front end application
+8. npm install to download dependencies
+9. npm run serve to run the front end
